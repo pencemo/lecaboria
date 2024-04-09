@@ -1,13 +1,87 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&display=swap');
+/* @font-face {
+  font-family: 'signfont';
+  src: url('../public/assets/font/ThePrestigeSignature.otf') format('otf');
+} */
+
+@font-face {
+  font-family: 'ThePrestigeSignature';
+  src: url('../public/assets/font/ThePrestigeSignatureRegular.woff') format('woff2');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --color-white: hsla(0, 0%, 100%, 1);
+  --color-yellow: hsla(34, 86%, 73%, 1);
+  --color-blue-200: hsla(231, 22%, 51%, 1);
+  --color-blue-300: hsla(232, 23%, 34%, 1);
+  --color-blue-400: hsla(231, 28%, 25%, 1);
+  --color-blue-500: hsla(226, 26%, 16%, 1);
 }
+
+:root .fonts{
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+ 
+}
+
+
+:root .btns{
+  /* background-color: var(--color-blue-200); */
+  border: solid 1px var(--color-blue-200);
+  padding: 6px 15px;
+  border-radius: 28px;
+  color: var(--color-white);
+  font-weight: 500;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+  overflow: hidden;
+  
+}
+:root .btns:hover::before{
+  left: 0;
+}
+:root .btns:hover{
+  color: aliceblue;
+}
+:root .btns::before{
+  display: grid;
+  place-content: center;
+  content: "Order Now";
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-blue-200);
+  position: absolute;
+  border: solid 1px var(--color-blue-200);
+  left: -130px;
+  top: 0;
+  border-radius: 50px;
+  transition: all .5s ease;
+}
+
+:root .btn-nav{
+  border-color: var(--color-blue-400);
+}
+:root .btn-nav::before{
+  background-color: var(--color-blue-400);
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

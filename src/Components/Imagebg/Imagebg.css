@@ -1,0 +1,25 @@
+.bgimg{
+    width: 100%;
+    /* height: 300px; */
+    min-height: 350px;
+    padding: 50px 20px;
+    background:  linear-gradient(45deg, hsla(0, 0%, 0%, 0.7), hsla(0, 0%, 5%, 0.6)), url('../../../public/assets/img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+.bgimg h1{
+    font-family: 'Abril Fatface', serif;
+    color: #fff;
+    font-size: clamp(2.5rem, 1.6941rem + 3.6842vw, 4.6875rem);
+    line-height: clamp(2.5rem, 1.6941rem + 3.6842vw, 4.6875rem);
+}
+
+.bgimg P{
+    font-size: 15px;
+    max-width: 600px;
+    color: #fff;
+}

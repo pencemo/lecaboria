@@ -1,0 +1,126 @@
+
+.Login{
+    width: 100%;
+    height: 100vh;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Login-Wrap{
+    width: 100%;
+    height: 100%;
+    /* max-width: 800px; */
+    /* height: 70vh; */
+    background-color: #f7f7f7;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "one tow";
+    overflow: hidden;
+    /* padding: 50px 0; */
+}
+.login-img{
+    grid-area: one;
+    background-color: var(--color-blue-200);
+    /* border-radius: 25px; */
+    /* max-height: 200px; */
+    overflow: hidden;
+}
+.login-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.login-lext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.login-lext h1{
+    /* margin-bottom: 50px; */
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--color-blue-200);
+}
+.login-lext p{
+    max-width: 250px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.input label{
+    font-size: 15px;
+    font-weight: 500;
+}
+.input input{
+    width: 270px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+.input input:focus{
+    background-color: #dddddd;
+}
+.loginerr input{
+    border-bottom: solid 1px #ff0000;
+}
+.input a{
+    margin-top: -10px;
+    color: var(--color-blue-200);
+    font-size: 13px;
+    text-decoration: underline;
+}
+.input button{
+    border: none;
+    display: inline;
+    background-color: var(--color-blue-200);
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+.wrgmessage{
+    color: #ff0000;
+    display: none;
+}
+.loginerr .wrgmessage{
+    display: block;
+}
+.creat{
+    color: var(--color-blue-200);
+    font-size: 15px;
+    margin: 0;
+}
+.creat:hover{
+    color: var(--color-blue-400);
+    text-decoration: underline;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  
+@media (max-width: 768px){
+    .Login-Wrap{
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 75%;
+        grid-template-areas: "one" "tow";
+    }
+    /* .login-img{
+        max-height: 200px;
+    } */
+}

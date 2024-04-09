@@ -1,0 +1,157 @@
+.about-section{
+    background-color: var(--color-blue-500);
+    width: 100%;
+    /* height: 80vh; */
+    color: aliceblue;
+    padding: 200px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.bgblur{
+    position: absolute;
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-color: var(--color-blue-200);
+    z-index: 1;
+    border-radius: 50%;
+    filter: blur(50px);
+    right: 20%;
+    top: 20%;
+    opacity: .5;
+}
+.about-wrap{
+    padding: 0 20px;
+    /* max-height: 400px; */
+    height: 400px;
+    display: grid;
+    place-content: center;
+    align-items: center;
+    /* justify-content: center; */
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "one tow";
+    background-color: var(--color-blue-300);
+    gap: 20px;
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
+}
+.leef{
+    position: absolute;
+    width: 130px;
+    right: 0;
+    bottom: -30px;
+    opacity: .8;
+}
+
+.about-img{
+    grid-area: one;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.about-img img{
+    position: relative;
+    bottom: 46px;
+    width: 300px;
+}
+.round{
+    position: absolute;
+    width: 350px;
+    aspect-ratio: 1/1;
+    background: linear-gradient(45deg, var(--color-blue-400), var(--color-blue-400), var(--color-blue-300));
+    border-radius: 50%;
+    opacity: .9;
+    top: 20px;
+}
+
+.about-text{
+    width: 100%;
+    grid-area: tow;
+    position: relative;
+}
+.about-text h1{
+    font-family: 'Abril Fatface', serif;
+    font-size: clamp(2.1875rem, 1.8421rem + 1.5789vw, 3.125rem);
+    line-height: 60px;
+}
+.about-text h3{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 200;
+}
+.about-text p{
+    max-width: 600px;
+    font-size: 14px;
+}
+
+.about-text .btn-2{
+    background-color: var(--color-blue-200);
+    border: solid 1px var(--color-blue-200);
+    padding: 6px 15px;
+    border-radius: 28px;
+    color: var(--color-white);
+    font-weight: 500;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+
+  .about-text .btn-2:hover{
+    color: aliceblue;
+    background-color: var(--color-blue-300);
+  }
+
+@media (max-width: 768px){
+    .about-wrap{
+        grid-template-columns: 100%;
+        grid-template-areas: "one" "tow";
+    }
+    .about-wrap{
+        height: auto;
+        padding-bottom: 80px;
+    }
+}
+
+
+.icons{
+    width: 100%;
+    /* height: 300px; */
+    /* background-color: var(--color-blue-400); */
+    margin-top: 80px;
+    /* opacity: .3; */
+    display: flex;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:30px 50px ;
+    text-align: center;
+    max-width: 1000px;
+}
+.icons-wrap{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons-wrap i{
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: var(--color-yellow);
+}
+.icons-wrap h4{
+    font-size: 17px;
+    color: var(--color-white);
+    font-weight: 400;
+}
+.icons-wrap p{
+    font-size: 13px;
+    line-height: 15px;
+    color: var(--color-white);
+    max-width: 180px;
+    font-weight: 200;
+}

@@ -1,0 +1,103 @@
+.menulist{
+    background-color: var(--color-blue-400);
+    width: 100%;
+    min-height: 100vh;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 150px 0;
+    color: aliceblue;
+    
+}
+.menuHeder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.menuHeder h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+.menu-add{
+    border: none;
+    outline: none;
+    display: inline;
+    width: 150px;
+    padding: 10px 0;
+    background-color: var(--color-blue-200);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    transition: all .3s;
+}
+.menu-add:hover{
+    background-color: var(--color-blue-300);
+}
+.lineBorder{
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-blue-200);
+    margin-top: 30px;
+}
+.itemList{
+    margin-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.listwrap{
+    width: 100%;
+    /* height: 80px; */
+    background-color: var(--color-blue-200);
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    transition: all .5s;
+    cursor: pointer;
+}
+.listwrap:hover{
+    background-color: var(--color-blue-300);
+    /* color: var(--color-blue-500); */
+    scale: 1.02;
+}
+.listwrap h1{
+    font-size: 25px;
+    margin: 0;
+    font-weight: 400;
+    margin-right: 20px;
+    width: 180px;
+    height: 35px;
+    /* background-color: rgb(22, 22, 22); */
+    overflow: hidden;
+}
+.listwrap p{
+    font-size: 15px;
+    margin: 0;
+    font-weight: 400;
+    max-width: 150px;
+}
+.menu-edit{
+    margin: 0;
+    border: none;
+    padding: 7px 10px;
+    background-color: var(--color-blue-400);
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.edit-btns{
+    display: flex;
+    gap: 20px;
+    
+}

@@ -1,0 +1,40 @@
+.topbar{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color-blue-200);
+}
+.topbar-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar h1{
+    margin: 0;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.admin-dts{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.admin-dts img{
+    width: 40px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border: #fff solid 1px;
+}
+.admin-dts h4{
+    font-size: 18px;
+    margin: 0;
+}
