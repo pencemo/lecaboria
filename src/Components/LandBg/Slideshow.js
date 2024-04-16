@@ -36,8 +36,8 @@ function Slideshow({ slides }) {
           <div className='icon-wrap'>
           <p>Folow Us</p>
           <div className="follow"></div>
-            <a href="https://www.facebook.com/profile.php?id=100090192650725&mibextid=ZbWKwL"><Facebook size={21} strokeWidth={1} /></a>
-            <a href="https://www.instagram.com/mghazifurniture?igsh=NWNnZGZyNjZpd2Jl"><Instagram size={21} strokeWidth={1} /></a>
+            <a href="https://www.facebook.com/"><Facebook size={21} strokeWidth={1} /></a>
+            <a href="https://www.instagram.com/"><Instagram size={21} strokeWidth={1} /></a>
             <a href="mailto:mghazitrading@gmail.com"><Mail size={21} strokeWidth={1} /></a>
             <a href="https://wa.me/+971543266421"><MessageCircle size={21} strokeWidth={1} /></a>
           </div>

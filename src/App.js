@@ -26,8 +26,8 @@ function App() {
 
   
   return (
-    
-      <BrowserRouter>
+    // basename="/lecaboria"
+      <BrowserRouter basename="/lecaboria">
         <Routes>
           <Route exact path='/'  element={<Home/>} />
           <Route path='/about'   element={<About/>} />

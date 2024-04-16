@@ -5,6 +5,7 @@ import { NavLink, Link} from 'react-router-dom';
 import './Navbar.css'
 import { Spin as Hamburger } from 'hamburger-react'
 // import { Pointer, ShoppingBag, ShoppingCart } from 'lucide-react';
+import logo from '../../Images/Logo.png'
 
 
 const Navbar = () => {
@@ -30,7 +31,7 @@ const Navbar = () => {
   return (
     <div className={scroll ? 'Navbar navscroll' : 'Navbar'}>
       <Container className='navlink'>
-        <div className="logo"><img src="./assets/logo.png" alt="" /></div>
+        <div className="logo"><img src={logo} alt="" /></div>
         <div onClick={navtoggle} className={toggle ? 'bg bgact' : 'bg' }></div>
         <ul  className={toggle && 'navactiv' }>
             <li><NavLink to='/'>Home</NavLink></li>

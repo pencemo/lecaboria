@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import './AboutSection.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import leef from '../../Images/leef.png'
+import cook from '../../Images/cook.png'
 
 function AboutSection() {
   useEffect(()=>{
@@ -18,7 +20,7 @@ function AboutSection() {
       <div className="about-wrap container " data-aos="fade-up" data-aos-duration="1000">
         <div className="about-img">
             <div className='round'></div>
-            <img src="./assets/cook.png" alt="" data-aos="fade-right" />
+            <img src={cook} alt="" data-aos="fade-right" />
         </div>
         <div className="about-text" data-aos="fade-up">
             <h3 className='abut-hed'>About Us</h3>
@@ -26,7 +28,7 @@ function AboutSection() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, commodi obcaecati nihil quas et magnam, sapiente ab similique ad nostrum laborum voluptatibus expedita saepe sint doloremque deleniti repudiandae officiis tempore?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem amet exercitationem provident error, sint est, delectus esse explicabo blanditiis laboriosam cupiditate a eaque, ducimus quam eius? Illo dignissimos quod veniam!</p>
             <Link  className='btn-2'  to='/about'>More About Us</Link>
         </div>
-        <img className='leef' src="./assets/leef.png" alt="" />
+        <img className='leef' src={leef} alt="" />
       </div>
       <div className="icons">
         <div className="icons-wrap" data-aos="fade-up" data-aos-delay="0">
