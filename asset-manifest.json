@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/lecaboria/static/css/main.96d1ac2f.css",
-    "main.js": "/lecaboria/static/js/main.9cea5e71.js",
+    "main.css": "/lecaboria/static/css/main.927a770c.css",
+    "main.js": "/lecaboria/static/js/main.5e1076af.js",
+    "static/media/cook.png": "/lecaboria/static/media/cook.3b608f103f74abc0a5d1.png",
     "static/media/img.jpg": "/lecaboria/static/media/img.33c7126dc870b73b609e.jpg",
+    "static/media/bg1.jpg": "/lecaboria/static/media/bg1.66d34252eb46d9fcc6b6.jpg",
+    "static/media/bg3.png": "/lecaboria/static/media/bg3.9375838097019f519cc8.png",
+    "static/media/bg2.jpg": "/lecaboria/static/media/bg2.66e63939ea2c757a5cb1.jpg",
     "static/media/loginbg.jpg": "/lecaboria/static/media/loginbg.dbc1d930b8bb5e76deab.jpg",
+    "static/media/leef.png": "/lecaboria/static/media/leef.428e0e8a5a936bd263c0.png",
     "static/media/Logo.png": "/lecaboria/static/media/Logo.524fa64529975748b597.png",
     "static/media/ThePrestigeSignatureRegular.woff": "/lecaboria/static/media/ThePrestigeSignatureRegular.7de36942f9e55862bcb3.woff",
     "index.html": "/lecaboria/index.html",
-    "main.96d1ac2f.css.map": "/lecaboria/static/css/main.96d1ac2f.css.map",
-    "main.9cea5e71.js.map": "/lecaboria/static/js/main.9cea5e71.js.map"
+    "main.927a770c.css.map": "/lecaboria/static/css/main.927a770c.css.map",
+    "main.5e1076af.js.map": "/lecaboria/static/js/main.5e1076af.js.map"
   },
   "entrypoints": [
-    "static/css/main.96d1ac2f.css",
-    "static/js/main.9cea5e71.js"
+    "static/css/main.927a770c.css",
+    "static/js/main.5e1076af.js"
   ]
 }
