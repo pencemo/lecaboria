@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lecaboria/static/css/main.96d1ac2f.css",
+    "main.js": "/lecaboria/static/js/main.9cea5e71.js",
+    "static/media/img.jpg": "/lecaboria/static/media/img.33c7126dc870b73b609e.jpg",
+    "static/media/loginbg.jpg": "/lecaboria/static/media/loginbg.dbc1d930b8bb5e76deab.jpg",
+    "static/media/Logo.png": "/lecaboria/static/media/Logo.524fa64529975748b597.png",
+    "static/media/ThePrestigeSignatureRegular.woff": "/lecaboria/static/media/ThePrestigeSignatureRegular.7de36942f9e55862bcb3.woff",
+    "index.html": "/lecaboria/index.html",
+    "main.96d1ac2f.css.map": "/lecaboria/static/css/main.96d1ac2f.css.map",
+    "main.9cea5e71.js.map": "/lecaboria/static/js/main.9cea5e71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96d1ac2f.css",
+    "static/js/main.9cea5e71.js"
+  ]
+}
