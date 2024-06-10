@@ -32,7 +32,7 @@ function MenuItems() {
       setMenuList(allMenu)
       setLoading(true)
     })
-  })
+  }, [])
 
   const deleteMenu = async(name) => {
     // const [dltMenu, setDltMenu]=useState('')

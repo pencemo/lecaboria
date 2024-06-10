@@ -29,7 +29,10 @@ function MenuItems() {
       <div className="menuHead">
         <h4>Our Delicious</h4>
         <h1>Food Menu</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam soluta voluptas nostrum. Quos commodi fugit ullam libero nesciunt velit rerum illum provident tenetur, suscipit distinctio hic est. Distinctio, ab.</p>
+        <p>Discover Le Caboria's delicious menu, where fresh, sustainably sourced seafood is transformed into
+          culinary masterpieces. From our signature crab dishes to seasonal specials, every bite is an exquisite
+          taste of the ocean.
+          </p>
       </div>
 
     

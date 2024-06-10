@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Footer.css'
+import logo from '../../assets/Logo.png'
 
 function Footer() {
   return (
@@ -41,10 +42,13 @@ function Footer() {
             
             <div className="col-sm-6 col-md-6 col-lg-4  footer-set-box">
               <div className='footer-logo'>
-                <img  src="./assets/logo.png" alt="" />
-                <p >We curate homeware that meets functional needs and inspires aesthetic pleasure.</p>
-                <h1 className='fonts'><i class="fa-sharp fa-solid fa-phone"></i>+91 1234 567 890</h1>
+                <img  src={logo} alt="" />
+                {/* <p >Indulge in the finest seafood experience at Le Caboria, where every dish is a celebration of the
+                  unty. From our kitchen to your table, we invite you to savor the taste of excellenceTER</p> */}
+                <h1 className='fonts mt-6'><i class="fa-solid fa-phone-rotary"></i>+971 4284 8424</h1>
+                <h1 className='fonts'><i class="fa-sharp fa-solid fa-phone"></i>+971 5017 32848</h1>
                 <h1><i class="fa-solid fa-envelope-open"></i>info@lecaboria.ae</h1>
+                <input type="text" className=' h-9 border-none rounded-md mt-3 bg-waikawa-gray-400' placeholder='Send Request' />
               </div>
             </div>
     

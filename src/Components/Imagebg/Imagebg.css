@@ -7,13 +7,13 @@
     /* background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
-    display: grid;
+    /* display: grid;
     place-content: center;
-    text-align: center;
+    text-align: center; */
 }
 .bgimg h1{
     font-family: 'Abril Fatface', serif;
-    color: #fff;
+    /* color: #fff; */
     font-size: clamp(2.5rem, 1.6941rem + 3.6842vw, 4.6875rem);
     line-height: clamp(2.5rem, 1.6941rem + 3.6842vw, 4.6875rem);
 }

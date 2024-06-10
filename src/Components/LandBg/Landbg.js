@@ -16,7 +16,11 @@ function Landbg() {
             <div className="land-bg-img img-1"><img src={img1} alt="" /><div class="gride" ></div></div>
             <div className="contant container ">
                 <h1>We do not cook, we create your emotions!</h1>
-                <p>Furnish your home with distinctive pieces from our furniture collection. Whether you're looking for a complete bedroom set, spacious wardrobes, comfortable sofas, or functional office furniture, Ghazi Homeware offers an exclusive range to suit your needs. Our designs combine practicality with aesthetics for a harmonious living experience.</p>
+                <p>At Le Caboria, we don’t just cook; we create emotions. Each dish is a masterpiece, crafted with
+                    passion and precision to evoke the essence of the sea and stir your senses. Our culinary artistry
+                    transforms fresh, sustainably sourced seafood into an unforgettable dining experience, leaving you
+                    with lasting memories of flavors and feelings. Come to Le Caboria and let us create your emotions
+                    with every bite.</p>
                 <div className="home-btn">
                     <Link className='btns2 ' to='/menu'>Book a Table</Link>
                     <Link className='btns btns1' to='/menu'>Order Now</Link>
@@ -26,8 +30,11 @@ function Landbg() {
         {content: <div className="slide">
             <div className="land-bg-img img-1"><img src={img2} alt="" /><div class="gride" ></div></div>
             <div className="contant container ">
-                <h1>create your emotions!</h1>
-                <p>pieces from our furniture collection. Whether you're looking for a complete bedroom set, spacious wardrobes, comfortable sofas, or functional office furniture, Ghazi Homeware offers an exclusive range to suit your needs. Our designs combine practicality with aesthetics for a harmonious living experience.</p>
+                <h1>Dive into Freshness</h1>
+                <p>At Le Caboria, every meal is a plunge into the ocean's bounty. Our commitment to fresh, sustainably
+                    sourced seafood ensures that each dish bursts with vibrant flavors and unparalleled quality. Come
+                    experience the true taste of the sea in a setting that captures the essence of coastal dining.
+                    </p>
                 <div className="home-btn">
                     <Link className='btns2 ' to='/menu'>Book a Table</Link>
                     <Link className='btns btns1' to='/menu'>Order Now</Link>
@@ -37,8 +44,11 @@ function Landbg() {
         {content: <div className="slide ">
             <div className="land-bg-img img-1"><img src={img3} alt="" /><div class="gride" ></div></div>
             <div className="contant container ">
-                <h1>We do no emotions!</h1>
-                <p>collection. Whether yous wardrobes, comfortable sofas, or functional office furniture, Ghazi Homeware offers an exclusive range to suit your needs. Our designs combine practicality with aesthetics for a harmonious living experience.</p>
+                <h1>Taste the Tide</h1>
+                <p>At Le Caboria, the rhythm of the tides inspires our menu. From our signature crab dishes to seasonal
+                    seafood specials, each plate is a reflection of the ocean's bounty. Join us to savor the freshest flavors
+                    of the sea, meticulously prepared by our expert chefs.
+                    </p>
                 <div className="home-btn">
                     <Link className='btns2 ' to='/menu'>Book a Table</Link>
                     <Link className='btns btns1' to='/menu'>Order Now</Link>

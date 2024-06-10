@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { Container } from "react-bootstrap";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Img from '../../assets/img.jpg'
+import Img1 from '../../assets/bg3.png'
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -14,54 +15,55 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import "./MenuSection.css";
+import { Import } from "lucide-react";
 
 function MenuSection() {
   const menudata =[
     {
       name: 'food Name 1',
-      image: './assets/bg1.jpg',
+      image: Img,
       disc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,perferendis.',
       rs: '$65'
     },
     {
       name: 'food Name 2',
-      image: './assets/bg2.jpg',
+      image: Img1,
       disc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,perferendis.',
       rs: '$100'
     },
     {
       name: 'food Name 3',
-      image: './assets/bg3.png',
+      image: Img,
       disc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,perferendis.',
       rs: '$75'
     },
     {
       name: 'food Name 4',
-      image: './assets/bg1.jpg',
+      image: Img1,
       disc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,perferendis.',
       rs: '$86'
     },
     {
       name: 'food Name 5',
-      image: './assets/bg2.jpg',
+      image: Img,
       disc: 'Lorem ipsum dolor, sictetur adipisicing elit. Error,perferendis.',
       rs: '$65'
     },
     {
       name: 'food Name 6',
-      image: './assets/bg3.png',
+      image: Img1,
       disc: 'dolor, sit amet consectetur adipisicing elit. Error,perferendis.',
       rs: '$85'
     },
     {
       name: 'food Name 7',
-      image: './assets/bg1.jpg',
+      image: Img,
       disc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,perferendis.',
       rs: '$65'
     },
     {
       name: 'food Name 2',
-      image: './assets/bg2.jpg',
+      image: Img1,
       disc: 'Lorem ipsum dolor, sit amet consectetur adip. Error,perferendis.',
       rs: '$55'
     },
@@ -71,7 +73,7 @@ function MenuSection() {
       <div className="swiper-head">
         <h4>Our Delicious</h4>
         <h2>Menu</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maxime animi aspernatur odio tempora vel consequatur, cum quibusdam ex dolores ullam beatae nisi ad quisquam, repellendus dolorem, sapiente ducimus? Molestias!</p>
+        <p>Discover Le Caboria's delicious menu, where fresh, sustainably sourced seafood is transformed into culinary masterpieces. From our signature crab dishes to seasonal specials, every bite is an exquisite taste of the ocean.</p>
       </div>
       <Container>
         <Swiper
@@ -106,7 +108,7 @@ function MenuSection() {
 
           {
             menudata.map((item)=>(
-              <SwiperSlide className="swp-card">
+              <SwiperSlide className="swp-card border">
                 <div className="food-img"><img src={item.image} alt="" /></div>
                 <div className="card-text">
                   <h1>{item.name}</h1>
